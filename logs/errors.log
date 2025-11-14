@@ -1,0 +1,88 @@
+
+============================================================
+Time: 2025-11-14 07:49:39
+Error:
+Traceback (most recent call last):
+  File "d:\Work\SGH\Python\Inventory Pro\main.py", line 36, in start_main_app
+    self.main_window = MainWindow(username, role, permissions)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Work\SGH\Python\Inventory Pro\ui\main_window.py", line 39, in __init__
+    self.build_ui()
+  File "d:\Work\SGH\Python\Inventory Pro\ui\main_window.py", line 58, in build_ui
+    self.load_pages()
+  File "d:\Work\SGH\Python\Inventory Pro\ui\main_window.py", line 174, in load_pages
+    self.pages.addWidget(ProfitAnalyticsPage(self.permissions["profit"]))    # 10
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Work\SGH\Python\Inventory Pro\ui\profit_analytics_page.py", line 20, in __init__
+    self.load_data()
+  File "d:\Work\SGH\Python\Inventory Pro\ui\profit_analytics_page.py", line 147, in load_data
+    self.sales = self.db.get_sales_profit_data()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_sales_profit_data'
+
+
+============================================================
+Time: 2025-11-14 07:54:20
+Error:
+Traceback (most recent call last):
+  File "d:\Work\SGH\Python\Inventory Pro\main.py", line 36, in start_main_app
+    self.main_window = MainWindow(username, role, permissions)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Work\SGH\Python\Inventory Pro\ui\main_window.py", line 39, in __init__
+    self.build_ui()
+  File "d:\Work\SGH\Python\Inventory Pro\ui\main_window.py", line 58, in build_ui
+    self.load_pages()
+  File "d:\Work\SGH\Python\Inventory Pro\ui\main_window.py", line 174, in load_pages
+    self.pages.addWidget(ProfitAnalyticsPage(self.permissions["profit"]))    # 10
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Work\SGH\Python\Inventory Pro\ui\profit_analytics_page.py", line 20, in __init__
+    self.load_data()
+  File "d:\Work\SGH\Python\Inventory Pro\ui\profit_analytics_page.py", line 147, in load_data
+    self.sales = self.db.get_sales_profit_data()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_sales_profit_data'
+
+
+============================================================
+Time: 2025-11-14 07:54:22
+Error:
+Traceback (most recent call last):
+  File "d:\Work\SGH\Python\Inventory Pro\main.py", line 36, in start_main_app
+    self.main_window = MainWindow(username, role, permissions)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Work\SGH\Python\Inventory Pro\ui\main_window.py", line 39, in __init__
+    self.build_ui()
+  File "d:\Work\SGH\Python\Inventory Pro\ui\main_window.py", line 58, in build_ui
+    self.load_pages()
+  File "d:\Work\SGH\Python\Inventory Pro\ui\main_window.py", line 174, in load_pages
+    self.pages.addWidget(ProfitAnalyticsPage(self.permissions["profit"]))    # 10
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Work\SGH\Python\Inventory Pro\ui\profit_analytics_page.py", line 20, in __init__
+    self.load_data()
+  File "d:\Work\SGH\Python\Inventory Pro\ui\profit_analytics_page.py", line 147, in load_data
+    self.sales = self.db.get_sales_profit_data()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_sales_profit_data'
+
+
+============================================================
+Time: 2025-11-14 07:54:24
+Error:
+Traceback (most recent call last):
+  File "d:\Work\SGH\Python\Inventory Pro\main.py", line 36, in start_main_app
+    self.main_window = MainWindow(username, role, permissions)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Work\SGH\Python\Inventory Pro\ui\main_window.py", line 39, in __init__
+    self.build_ui()
+  File "d:\Work\SGH\Python\Inventory Pro\ui\main_window.py", line 58, in build_ui
+    self.load_pages()
+  File "d:\Work\SGH\Python\Inventory Pro\ui\main_window.py", line 174, in load_pages
+    self.pages.addWidget(ProfitAnalyticsPage(self.permissions["profit"]))    # 10
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Work\SGH\Python\Inventory Pro\ui\profit_analytics_page.py", line 20, in __init__
+    self.load_data()
+  File "d:\Work\SGH\Python\Inventory Pro\ui\profit_analytics_page.py", line 147, in load_data
+    self.sales = self.db.get_sales_profit_data()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DatabaseManager' object has no attribute 'get_sales_profit_data'
+
